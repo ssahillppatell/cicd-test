@@ -27,7 +27,8 @@ jobs:
         server: ftp.engineeringtimes.in
         username: sahil@sahil.mathrithms.com
         password: ${{ secrets.ftp_password }}
-        local-dir: ./dist/ 
+        local-dir: ./dist/
+        server-dir: ./dist/
         exclude: .git*
           - .git*/**
           -  **/.git*/**
